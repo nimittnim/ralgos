@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-3iy98pw5/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-sjhi0axo/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-3iy98pw5/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-sjhi0axo/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-3iy98pw5/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-sjhi0axo/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -153,29 +153,197 @@ src/bindings.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.s
 .PHONY : src/bindings.cpp.s
 
-src/kwise.o: src/kwise.cpp.o
-.PHONY : src/kwise.o
+src/expanders/margulis.o: src/expanders/margulis.cpp.o
+.PHONY : src/expanders/margulis.o
 
 # target to build an object file
-src/kwise.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o
-.PHONY : src/kwise.cpp.o
+src/expanders/margulis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o
+.PHONY : src/expanders/margulis.cpp.o
 
-src/kwise.i: src/kwise.cpp.i
-.PHONY : src/kwise.i
+src/expanders/margulis.i: src/expanders/margulis.cpp.i
+.PHONY : src/expanders/margulis.i
 
 # target to preprocess a source file
-src/kwise.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.i
-.PHONY : src/kwise.cpp.i
+src/expanders/margulis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.i
+.PHONY : src/expanders/margulis.cpp.i
 
-src/kwise.s: src/kwise.cpp.s
-.PHONY : src/kwise.s
+src/expanders/margulis.s: src/expanders/margulis.cpp.s
+.PHONY : src/expanders/margulis.s
 
 # target to generate assembly for a file
-src/kwise.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.s
-.PHONY : src/kwise.cpp.s
+src/expanders/margulis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.s
+.PHONY : src/expanders/margulis.cpp.s
+
+src/generators/bernoulli.o: src/generators/bernoulli.cpp.o
+.PHONY : src/generators/bernoulli.o
+
+# target to build an object file
+src/generators/bernoulli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o
+.PHONY : src/generators/bernoulli.cpp.o
+
+src/generators/bernoulli.i: src/generators/bernoulli.cpp.i
+.PHONY : src/generators/bernoulli.i
+
+# target to preprocess a source file
+src/generators/bernoulli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.i
+.PHONY : src/generators/bernoulli.cpp.i
+
+src/generators/bernoulli.s: src/generators/bernoulli.cpp.s
+.PHONY : src/generators/bernoulli.s
+
+# target to generate assembly for a file
+src/generators/bernoulli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.s
+.PHONY : src/generators/bernoulli.cpp.s
+
+src/generators/kbernoulli.o: src/generators/kbernoulli.cpp.o
+.PHONY : src/generators/kbernoulli.o
+
+# target to build an object file
+src/generators/kbernoulli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o
+.PHONY : src/generators/kbernoulli.cpp.o
+
+src/generators/kbernoulli.i: src/generators/kbernoulli.cpp.i
+.PHONY : src/generators/kbernoulli.i
+
+# target to preprocess a source file
+src/generators/kbernoulli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.i
+.PHONY : src/generators/kbernoulli.cpp.i
+
+src/generators/kbernoulli.s: src/generators/kbernoulli.cpp.s
+.PHONY : src/generators/kbernoulli.s
+
+# target to generate assembly for a file
+src/generators/kbernoulli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.s
+.PHONY : src/generators/kbernoulli.cpp.s
+
+src/generators/kuniform.o: src/generators/kuniform.cpp.o
+.PHONY : src/generators/kuniform.o
+
+# target to build an object file
+src/generators/kuniform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o
+.PHONY : src/generators/kuniform.cpp.o
+
+src/generators/kuniform.i: src/generators/kuniform.cpp.i
+.PHONY : src/generators/kuniform.i
+
+# target to preprocess a source file
+src/generators/kuniform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.i
+.PHONY : src/generators/kuniform.cpp.i
+
+src/generators/kuniform.s: src/generators/kuniform.cpp.s
+.PHONY : src/generators/kuniform.s
+
+# target to generate assembly for a file
+src/generators/kuniform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.s
+.PHONY : src/generators/kuniform.cpp.s
+
+src/generators/margulis.o: src/generators/margulis.cpp.o
+.PHONY : src/generators/margulis.o
+
+# target to build an object file
+src/generators/margulis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o
+.PHONY : src/generators/margulis.cpp.o
+
+src/generators/margulis.i: src/generators/margulis.cpp.i
+.PHONY : src/generators/margulis.i
+
+# target to preprocess a source file
+src/generators/margulis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.i
+.PHONY : src/generators/margulis.cpp.i
+
+src/generators/margulis.s: src/generators/margulis.cpp.s
+.PHONY : src/generators/margulis.s
+
+# target to generate assembly for a file
+src/generators/margulis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.s
+.PHONY : src/generators/margulis.cpp.s
+
+src/generators/normal.o: src/generators/normal.cpp.o
+.PHONY : src/generators/normal.o
+
+# target to build an object file
+src/generators/normal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o
+.PHONY : src/generators/normal.cpp.o
+
+src/generators/normal.i: src/generators/normal.cpp.i
+.PHONY : src/generators/normal.i
+
+# target to preprocess a source file
+src/generators/normal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.i
+.PHONY : src/generators/normal.cpp.i
+
+src/generators/normal.s: src/generators/normal.cpp.s
+.PHONY : src/generators/normal.s
+
+# target to generate assembly for a file
+src/generators/normal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.s
+.PHONY : src/generators/normal.cpp.s
+
+src/generators/uniform.o: src/generators/uniform.cpp.o
+.PHONY : src/generators/uniform.o
+
+# target to build an object file
+src/generators/uniform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o
+.PHONY : src/generators/uniform.cpp.o
+
+src/generators/uniform.i: src/generators/uniform.cpp.i
+.PHONY : src/generators/uniform.i
+
+# target to preprocess a source file
+src/generators/uniform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.i
+.PHONY : src/generators/uniform.cpp.i
+
+src/generators/uniform.s: src/generators/uniform.cpp.s
+.PHONY : src/generators/uniform.s
+
+# target to generate assembly for a file
+src/generators/uniform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.s
+.PHONY : src/generators/uniform.cpp.s
+
+src/generators/uuniform.o: src/generators/uuniform.cpp.o
+.PHONY : src/generators/uuniform.o
+
+# target to build an object file
+src/generators/uuniform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o
+.PHONY : src/generators/uuniform.cpp.o
+
+src/generators/uuniform.i: src/generators/uuniform.cpp.i
+.PHONY : src/generators/uuniform.i
+
+# target to preprocess a source file
+src/generators/uuniform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.i
+.PHONY : src/generators/uuniform.cpp.i
+
+src/generators/uuniform.s: src/generators/uuniform.cpp.s
+.PHONY : src/generators/uuniform.s
+
+# target to generate assembly for a file
+src/generators/uuniform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ralgos_cpp.dir/build.make CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.s
+.PHONY : src/generators/uuniform.cpp.s
 
 # Help Target
 help:
@@ -189,9 +357,30 @@ help:
 	@echo "... src/bindings.o"
 	@echo "... src/bindings.i"
 	@echo "... src/bindings.s"
-	@echo "... src/kwise.o"
-	@echo "... src/kwise.i"
-	@echo "... src/kwise.s"
+	@echo "... src/expanders/margulis.o"
+	@echo "... src/expanders/margulis.i"
+	@echo "... src/expanders/margulis.s"
+	@echo "... src/generators/bernoulli.o"
+	@echo "... src/generators/bernoulli.i"
+	@echo "... src/generators/bernoulli.s"
+	@echo "... src/generators/kbernoulli.o"
+	@echo "... src/generators/kbernoulli.i"
+	@echo "... src/generators/kbernoulli.s"
+	@echo "... src/generators/kuniform.o"
+	@echo "... src/generators/kuniform.i"
+	@echo "... src/generators/kuniform.s"
+	@echo "... src/generators/margulis.o"
+	@echo "... src/generators/margulis.i"
+	@echo "... src/generators/margulis.s"
+	@echo "... src/generators/normal.o"
+	@echo "... src/generators/normal.i"
+	@echo "... src/generators/normal.s"
+	@echo "... src/generators/uniform.o"
+	@echo "... src/generators/uniform.i"
+	@echo "... src/generators/uniform.s"
+	@echo "... src/generators/uuniform.o"
+	@echo "... src/generators/uuniform.i"
+	@echo "... src/generators/uuniform.s"
 .PHONY : help
 
 

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-3iy98pw5/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-sjhi0axo/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-3iy98pw5/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /private/var/folders/s7/2q0716fn6f9870ml3xxl9r_m0000gn/T/pip-build-env-sjhi0axo/overlay/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,24 +72,122 @@ include CMakeFiles/ralgos_cpp.dir/flags.make
 CMakeFiles/ralgos_cpp.dir/codegen:
 .PHONY : CMakeFiles/ralgos_cpp.dir/codegen
 
-CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
-CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/kwise.cpp
-CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/kwise.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kuniform.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kuniform.cpp
 
-CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/kwise.cpp > CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.i
+CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kuniform.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.i
 
-CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/kwise.cpp -o CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.s
+CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kuniform.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uuniform.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uuniform.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uuniform.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uuniform.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/normal.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/normal.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/normal.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/normal.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uniform.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uniform.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uniform.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/uniform.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/bernoulli.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/bernoulli.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/bernoulli.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/bernoulli.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kbernoulli.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kbernoulli.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kbernoulli.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/kbernoulli.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/generators/margulis.cpp
+CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/generators/margulis.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/generators/margulis.cpp > CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/generators/margulis.cpp -o CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.s
+
+CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
+CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/expanders/margulis.cpp
+CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/expanders/margulis.cpp
+
+CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/macbookpro/Documents/ralgos/ralgos/src/expanders/margulis.cpp > CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.i
+
+CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/macbookpro/Documents/ralgos/ralgos/src/expanders/margulis.cpp -o CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.s
 
 CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o: CMakeFiles/ralgos_cpp.dir/flags.make
 CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o: /Users/macbookpro/Documents/ralgos/ralgos/src/bindings.cpp
 CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o: CMakeFiles/ralgos_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o -MF CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o.d -o CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o -c /Users/macbookpro/Documents/ralgos/ralgos/src/bindings.cpp
 
 CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.i: cmake_force
@@ -102,17 +200,31 @@ CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.s: cmake_force
 
 # Object files for target ralgos_cpp
 ralgos_cpp_OBJECTS = \
-"CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o" \
+"CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o" \
 "CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o"
 
 # External object files for target ralgos_cpp
 ralgos_cpp_EXTERNAL_OBJECTS =
 
-/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/kwise.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/kuniform.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/uuniform.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/normal.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/uniform.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/bernoulli.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/kbernoulli.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/generators/margulis.cpp.o
+/Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/expanders/margulis.cpp.o
 /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/src/bindings.cpp.o
 /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/build.make
 /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so: CMakeFiles/ralgos_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/macbookpro/Documents/ralgos/ralgos/_skbuild/macosx-14.0-x86_64-3.13/cmake-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared module /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ralgos_cpp.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/strip -x /Users/macbookpro/Documents/ralgos/ralgos/ralgos/ralgos_cpp.cpython-313-darwin.so
 
