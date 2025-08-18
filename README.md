@@ -20,6 +20,7 @@ cd ralgos
 ```
 
 Import the library as ralgos.
+
 ---
 ## Examples
 Refer to ralgos/demo.ipynb that demonstrates the usage and functionalisites via examples.
