@@ -1,6 +1,6 @@
 # Ralgos
 
-**Ralgos** is a C++/Python hybrid library for building, analyzing, and amplifying randomized algorithms being developed as part of the project: [Project Web Page Link](https://nimittnim.github.io/ralgosweb/index.html). It provides support for foundational random number generators, random variable construction, sampling, and inference tools like Chernoff, Hoeffding bounds.
+**Ralgos** is a Python library for building, analyzing, and amplifying randomized algorithms being developed as part of the project: [Project Web Page Link](https://nimittnim.github.io/ralgosweb/index.html). It provides support for foundational random number generators, random variable construction, sampling, and inference tools like Chernoff, Hoeffding bounds. Further, it also provides tools for distribution testing.
 
 ---
 
@@ -10,15 +10,16 @@ For documentation refer to [Ralgos Documentation](https://nimittnim.github.io/ra
 ---
 
 ## Requirements
-pybind11, scikit-build
+numpy
 
 ## Installation
 
 ```bash
 git clone https://github.com/nimittnim/ralgos.git
 cd ralgos
-pip install .
 ```
+
+Import the library as ralgos.
 ---
 ## Examples
 Refer to ralgos/demo.ipynb that demonstrates the usage and functionalisites via examples.

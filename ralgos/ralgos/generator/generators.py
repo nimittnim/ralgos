@@ -1,4 +1,4 @@
-from ralgos.ralgos_cpp import KUniformGenerator, NormalGenerator, UniformGenerator, UUniformGenerator,BernoulliGenerator,KBernoulliGenerator, MargulisGenerator
+from .gens import KUniformGenerator, NormalGenerator, UniformGenerator, UUniformGenerator,BernoulliGenerator,KBernoulliGenerator, MargulisGenerator
 from .Generator import Generator
 
 class kuniform(Generator):
@@ -26,7 +26,7 @@ class uuniform(Generator):
 
 class bernoulli(Generator):
     def __init__(self,p=0.5):
-        gen = BernoulliGenerator(p)
+        gen = BernoulliGenerator([p])
         super().__init__(sampling_function=gen.sample,mean=p,variance=p*(1-p),k="i",type="bernoulli",lower_bound=0,upper_bound=1)
         self.p = p
 
